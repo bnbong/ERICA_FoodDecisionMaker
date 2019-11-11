@@ -9,12 +9,14 @@ This Application has...
 ---------------------------------------
 
 1. The roulette that choose one object(restaurant or food menu) that user input.
-2. Application's recommend based on price point, kinds of food, rating, or distance.
+2. Application's recommend will based on price point, kinds of food, rating, or distance.
 
 ---------------------------------------
+
 
 Maker 
 ---------------------------------------
 
 JJongmen(박종윤), bnbong(이준혁)
-	Thank you
+
+Thank You :)
