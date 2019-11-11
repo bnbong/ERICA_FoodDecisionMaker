@@ -7,7 +7,7 @@ It means losing tons of decision making is now become serious problem.
 
 So what things make them hard? this statistics explicate about this.
 
-//
+![결정장애02_f1](./결정장애02_f1.jpg)
 
 So we felt serious about this problem and we decided to make a 'Mobile Application' that help to make a quick decision of what to eat.
 
