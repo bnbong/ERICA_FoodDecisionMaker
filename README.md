@@ -12,3 +12,8 @@ This Application has...
 2. Application's recommend based on price point, kinds of food, rating, or distance.
 
 ---------------------------------------
+
+Maker 
+---------------------------------------
+
+JJongmen(박종윤), bnbong(이준혁)
