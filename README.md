@@ -16,10 +16,17 @@ Now let us introduce about our application.
 This Application has...
 ---------------------------------------
 
+0. The first page that appears on this application first will teach you how to use it.
 1. The roulette that choose one object(restaurant or food menu) that user input.
 2. Application's recommend will based on price point, kinds of food, rating, or distance.
 
+
+Development Environment
 ---------------------------------------
+
+  Ubuntu 18.04.3
+  Android Studio 3.5.2.0 version
+  
 
 We hope it helps your decision making!
 Because your time is precious.
