@@ -24,7 +24,7 @@ This Application has...
 Development Environment
 ---------------------------------------
 
-  Ubuntu 18.04.3
+  Ubuntu 18.04.3                                                         
   Android Studio 3.5.2.0 version
   
 
