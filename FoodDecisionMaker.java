@@ -156,7 +156,7 @@ public class FoodDecisionMaker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Record[] db = new Record[4]; //change number with amount of Records
+        Record[] db = new Record[32]; //change number with amount of Records
         Record r1 = new OtherElements(new StringDoubleKey("SubWay", "Western food", "Expensive", "Close", "Low"));
         Record r2 = new OtherElements(new StringDoubleKey("213 Burger", "Western food", "Cheap", "Close", "High"));
         Record r3 = new OtherElements(new StringDoubleKey("jjigae jjigae", "Korean food", "Cheap", "Close", "High"));
@@ -273,7 +273,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfMenu() == "Western food") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Price : " + db[i].KeyOfExpensive() + " Distance : " + db[i].KeyOfDistance() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -284,7 +284,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfMenu() == "Korean food") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Price : " + db[i].KeyOfExpensive() + " Distance : " + db[i].KeyOfDistance() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -309,7 +309,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfExpensive() == "Cheap") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Distance : " + db[i].KeyOfDistance() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -320,7 +320,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfExpensive() == "Expensive") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Distance : " + db[i].KeyOfDistance() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -344,7 +344,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfDistance() == "Close") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Price : " + db[i].KeyOfExpensive() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -355,7 +355,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfDistance() == "Far") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Price : " + db[i].KeyOfExpensive() + " Rating : " + db[i].KeyOfRating());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -379,7 +379,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfRating() == "Low") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Price : " + db[i].KeyOfExpensive() + " Distance : " + db[i].KeyOfDistance());
                                                     System.out.println("Thank you!!");
                                                     break;
@@ -390,7 +390,7 @@ public class FoodDecisionMaker {
                                             int i = 0;
                                             while(db[i] != null) {
                                                 if(db[i].KeyOfRating() == "High") {
-                                                    System.out.println("How about" + db[i].KeyOfName());
+                                                    System.out.println("How about " + db[i].KeyOfName());
                                                     System.out.println("Kinds of menu : " + db[i].KeyOfMenu() + " Price : " + db[i].KeyOfExpensive() + " Distance : " + db[i].KeyOfDistance());
                                                     System.out.println("Thank you!!");
                                                     break;
