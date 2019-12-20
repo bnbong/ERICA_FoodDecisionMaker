@@ -162,12 +162,14 @@ public class FoodDecisionMaker {
         Record r3 = new OtherElements(new StringDoubleKey("jjigae jjigae", "Korean food", "Cheap", "Close", "High"));
         Record r4 = new OtherElements(new StringDoubleKey("All Chone", "Korean food", "Cheap", "Close", "High"));
 		Record r5 = new OtherElements(new StringDoubleKey("Bistro Tabom", "Western food", "Expensive", "Close", "High"));
+		Record r6 = new OtherElements(new StringDoubleKey("Kimgane", "Korean Food", "Cheap", "Cheap", "Close", "High"));
 
         db[0] = r1; //add records at db
         db[1] = r2;
         db[2] = r3;
         db[3] = r4;
 		db[4] = r5;
+		db[5] = r6;
         db = shuffle(db); //shuffling db list
 
         System.out.println("Welcome to Food Decision Maker!! \n\nThis programm will help you to choose where to eat today.\n\n 1. Run Decision Rullet\n\n 2. Run Decision Navigator\n\n 3. Quit");
