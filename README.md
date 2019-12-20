@@ -65,15 +65,17 @@ Thanks for watching :)
 Development Notes
 ---------------------------------------
 
-  1.
-  2.
-  3.
+Go to Development Notes file.
+
+  1. Development Note/20191111.md
+  2. Development Note/20191127.md
+  3. 
 
 Maker 
 ---------------------------------------
 
-JJongmen(박종윤) 소프트웨어학부 1학년 2019030191                                                   
-bnbong(이준혁) 소프트웨어학부 1학년 2019011758
+JJongmen(박종윤) 소프트웨어학부 1학년 2019030191 -> sub develop, main debugging, translating Korean, adding sources                                                  
+bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, managing README.md, Development note, sub debugging
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -142,13 +144,15 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758
 개발자노트
 ---------------------------------------
 
-  1.
-  2.
-  3.
+'Development file' 에서 확인하실 수 있습니다.
+
+  1. Development Note/20191111.md
+  2. Development Note/20191127.md
+  3. 
 
 
 제작자
 ---------------------------------------
 
-JJongmen(박종윤) 소프트웨어학부 1학년 2019030191  
-bnbong(이준혁) 소프트웨어학부 1학년 2019011758
+JJongmen(박종윤) 소프트웨어학부 1학년 2019030191 -> 보조 개발, 메인 디버거, 문서 한글번역작업, 추가적인 소스 추가
+bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> 메인 개발, README.md, Development note 관리, 보조 
