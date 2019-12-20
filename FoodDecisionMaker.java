@@ -1,5 +1,5 @@
 /*
- 
+
 **** FoodDecisionMaker ver.JAVA ****
 ///authorized by bnbong, JJongmen///
 
@@ -161,7 +161,7 @@ public class FoodDecisionMaker {
         Record r2 = new OtherElements(new StringDoubleKey("213 Burger", "Western food", "Cheap", "Close", "High"));
         Record r3 = new OtherElements(new StringDoubleKey("jjigae jjigae", "Korean food", "Cheap", "Close", "High"));
         Record r4 = new OtherElements(new StringDoubleKey("All Chone", "Korean food", "Cheap", "Close", "High"));
-		Record r5 = new OtherElements(new StringDoubleKey("Bistro Tabom", "Western food", "Expensive", "Close", "High"));
+        Record r5 = new OtherElements(new StringDoubleKey("Bistro Tabom", "Western food", "Expensive", "Close", "High"));
 		Record r6 = new OtherElements(new StringDoubleKey("Kimgane", "Korean Food", "Cheap", "Close", "High"));
 		Record r7 = new OtherElements(new StringDoubleKey("Bap FULL","Korean Food", "Cheap", "Close", "Low"));
 		Record r8 = new OtherElements(new StringDoubleKey("Myungga Tteokbokki","Korean Food", "Cheap", "Close", "High"));
@@ -190,13 +190,11 @@ public class FoodDecisionMaker {
 		Record r31 = new OtherElements(new StringDoubleKey("StarKebab", "Western Food", "Expensive", "Far", "High"));
 		Record r32 = new OtherElements(new StringDoubleKey("O'ZBEK", "Western Food", "Expensive", "Far", "High"));
 
-
-
         db[0] = r1; //add records at db
         db[1] = r2;
         db[2] = r3;
         db[3] = r4;
-		db[4] = r5;
+        db[4] = r5;
 		db[5] = r6;
 		db[6] = r7;
 		db[7] = r8;
@@ -224,6 +222,7 @@ public class FoodDecisionMaker {
 		db[29] = r30;
 		db[30] = r31;
 		db[31] = r32;
+
         db = shuffle(db); //shuffling db list
 
         System.out.println("Welcome to Food Decision Maker!! \n\nThis programm will help you to choose where to eat today.\n\n 1. Run Decision Rullet\n\n 2. Run Decision Navigator\n\n 3. Quit");
@@ -264,11 +263,13 @@ public class FoodDecisionMaker {
                         Scanner scanner1 = new Scanner(System.in);
                         try{
                             char navi_response = scanner1.next().charAt(0);
+                            if (navi_response != 'f' && navi_response != 'p' && navi_response != 'd' && navi_response != 'r') {scanner1.close(); throw new Exception();}
                             if (navi_response == 'f') { //food type (Western food, Korean food)
                                 System.out.println("Which kinds of food do you want? : (Enter w for Western food, k for Korean food)");
                                 Scanner scanner2 = new Scanner(System.in);
                                     try{
                                         char food_response = scanner2.next().charAt(0);
+                                        if(food_response != 'w' && food_response != 'k') {scanner2.close(); throw new Exception();}
                                         if (food_response == 'w') {
                                             int i = 0;
                                             while(db[i] != null) {
@@ -305,6 +306,7 @@ public class FoodDecisionMaker {
                                 Scanner scanner3 = new Scanner(System.in);
                                     try{
                                         char price_response = scanner3.next().charAt(0);
+                                        if(price_response != 'c' && price_response != 'e') {scanner3.close(); throw new Exception();}
                                         if(price_response == 'c') {
                                             int i = 0;
                                             while(db[i] != null) {
@@ -340,6 +342,7 @@ public class FoodDecisionMaker {
                                 Scanner scanner4 = new Scanner(System.in);
                                     try{
                                         char dis_response = scanner4.next().charAt(0);
+                                        if(dis_response != 'c' && dis_response != 'f') {scanner4.close(); throw new Exception();}
                                         if(dis_response == 'c') {
                                             int i = 0;
                                             while(db[i] != null) {
@@ -375,6 +378,7 @@ public class FoodDecisionMaker {
                                 Scanner scanner5 = new Scanner(System.in);
                                     try{
                                         char rat_response = scanner5.next().charAt(0);
+                                        if(rat_response != 'l' && rat_response != 'h') {scanner5.close(); throw new Exception();}
                                         if(rat_response == 'l') {
                                             int i = 0;
                                             while(db[i] != null) {
