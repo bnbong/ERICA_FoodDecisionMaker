@@ -162,4 +162,4 @@ https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/
 ---------------------------------------
 
 JJongmen(박종윤) 소프트웨어학부 1학년 2019030191 -> 보조 개발, 메인 디버거, 문서 한글번역작업, 추가적인 소스 추가
-bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> 메인 개발, README.md, Development note 관리, 보조 
+bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> 메인 개발, README.md, Development note 관리, 보조 디버거
