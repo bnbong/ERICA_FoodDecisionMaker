@@ -183,7 +183,12 @@ public class FoodDecisionMaker {
 		Record r24 = new OtherElements(new StringDoubleKey("Happy jjamppong", "Western Food", "Cheap", "Close", "High"));
 		Record r25 = new OtherElements(new StringDoubleKey("Jelly Factory", "Korean Food", "Expensive", "Close", "High"));
 		Record r26 = new OtherElements(new StringDoubleKey("yume restaurant", "Western Food", "Expensive", "Close", "High"));
-
+		Record r27 = new OtherElements(new StringDoubleKey("Dongari restaurant", "Korean Food", "Cheap", "Close", "High"));
+		Record r28 = new OtherElements(new StringDoubleKey("yetnalhaksa jeyookssambap", "Korean Food", "Cheap", "Close", "High"));
+		Record r29 = new OtherElements(new StringDoubleKey("EBISU","Western Food", "Expensive", "Far","High"));
+		Record r30 = new OtherElements(new StringDoubleKey("Brother Steak", "Western Food", "Expensive", "Far", "High"));
+		Record r31 = new OtherElements(new StringDoubleKey("StarKebab", "Western Food", "Expensive", "Far", "High"));
+		Record r32 = new OtherElements(new StringDoubleKey("O'ZBEK", "Western Food", "Expensive", "Far", "High"));
 
 
 
@@ -196,6 +201,29 @@ public class FoodDecisionMaker {
 		db[6] = r7;
 		db[7] = r8;
 		db[8] = r9;
+		db[9] = r10;
+		db[10] = r11;
+		db[11] = r12;
+		db[12] = r13;
+		db[13] = r14;
+		db[14] = r15;
+		db[15] = r16;
+		db[16] = r17;
+		db[17] = r18;
+		db[18] = r19;
+		db[19] = r20;
+		db[20] = r21;
+		db[21] = r22;
+		db[22] = r23;
+		db[23] = r24;
+		db[24] = r25;
+		db[25] = r26;
+		db[26] = r27;
+		db[27] = r28;
+		db[28] = r29;
+		db[29] = r30;
+		db[30] = r31;
+		db[31] = r32;
         db = shuffle(db); //shuffling db list
 
         System.out.println("Welcome to Food Decision Maker!! \n\nThis programm will help you to choose where to eat today.\n\n 1. Run Decision Rullet\n\n 2. Run Decision Navigator\n\n 3. Quit");
