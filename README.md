@@ -16,6 +16,15 @@ So we felt serious about this problem and we decided to make a JAVA programm tha
 
 Now let us introduce about our programm.
 
+**Important Announcement**
+
+We was decided to make Android application first, But we faced technical limit about using Android Studio.
+The main layout of FoodDecisionMaker was Fragment drawer layout. But we can't build effective solution about our layout.
+Maybe its because we have many button or any extra events at FoodDecisionMaker, so it was hard to manage all event that occurs in Fragment.
+
+So we changed our development path to create project by JAVA-only source code, not for android.
+Sorry for that, and please enjoy our FoodDecisionMaker.
+
 This Programm has...
 ---------------------------------------
 
@@ -25,7 +34,8 @@ This Programm has...
 
 How to use?
 ---------------------------------------
-
+  0. PLEASE **USE 'FoodDecisionMaker.java' File**,  **not** FoodDecisionMakerProject folder
+  
   1. You can compile this programm int JAVA compiler, at Linux.
     Linux terminal : type 'javac FoodDecisionMaker.java'
     
@@ -52,6 +62,13 @@ Because your time is precious.
 
 Thanks for watching :)
 
+Development Notes
+---------------------------------------
+
+  1.
+  2.
+  3.
+
 Maker 
 ---------------------------------------
 
@@ -75,6 +92,16 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758
 
 이제 저희가 만든 프로그램 대해 소개하겠습니다.
 
+**안내**
+
+프로젝트를 개발하면서 처음에는 안드로이드 어플리케이션을 개발하려고 했으나, 기술적 한계에 직면하게 되었습니다.
+안드로이드 스튜디오의 추가적인 학습을 진행해도 
+본 프로젝트의 매인 레이아웃이 되는 Fragment Drawer 레이아웃에 대한 효과적인 솔루션을 개발하지 못했습니다.
+아마 이 이유가 본 프로젝트에서 구현해야하는 이벤트가 많다보니 Fragment상에서 이벤트를 처리, 관리하는 솔루션 개발능력의 부족함이 도드라지지 않았나, 생각합니다.
+
+때문에 개발 방향을 안드로이드 앱을 위한 코드가 아닌 JAVA로만 작성된 프로그램을 개발하기로 결정했습니다.
+개발 방향대로 진행되지 못한점 정말 죄송합니다. 부디 저희 FoodDecisionMaker을 즐겨주세요!
+
 이 프로그램이 가진 기능!
 ---------------------------------------
 
@@ -84,6 +111,7 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758
 
 어떻게 사용하나요?
 ---------------------------------------
+  0. **'FoodDecisionMaker.java'** 파일을 이용하세요!! 'FoodDecisionMakerProject' 폴더에 있는 파일이 아닙니다!!!
 
   1. 이 프로그램은 리눅스에 깔려 있는 JAVA컴파일러로 컴파일 할 수 있습니다.
     리눅스 터미널 사용법 : 'javac FoodDecisionMaker.java' 를 입력
@@ -110,6 +138,14 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758
 여러분들의 시간은 소중하니까요^^
 
 지금까지 봐주셔서 감사합니다 :) 
+
+개발자노트
+---------------------------------------
+
+  1.
+  2.
+  3.
+
 
 제작자
 ---------------------------------------
