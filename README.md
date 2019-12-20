@@ -1,8 +1,8 @@
-# ERICA_FoodDecisionMaker
+# ERICA_FoodDecisionMaker (README ver.ENGLISH)
 
 ERICA_FoodDecisionMaker for Linux
 
-**About FoodDecisionMaker (Google Docks)**                                       
+**About FoodDecisionMaker (Google Docs)**                                       
 https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit?usp=sharing
 
 Do you have trouble with making decision of what to eat at afternoon or evening everyday?
@@ -56,7 +56,7 @@ How to use?
 Development Environment
 ---------------------------------------
 
-  Ubuntu 18.04.3                                                         
+  ***Ubuntu 18.04.3                                                         
   JAVA OpenJDK 11
   (development tool Visual Studio Code 1.41.0)
 
@@ -82,7 +82,9 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-# ERICA_FoodDecisionMaker
+# ERICA_FoodDecisionMaker (README ver.KOREAN)
+
+ERICA_FoodDecisionMaker for Linux
 
 **FoodDecisionMaker 설명 (Google 문서)**                                              
 https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit?usp=sharing
@@ -138,12 +140,12 @@ https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/
 개발 환경
 ---------------------------------------
 
-  Ubuntu 18.04.3                                                         
+  ***Ubuntu 18.04.3                                                         
   JAVA OpenJDK 11
   (development tool Visual Studio Code 1.41.0)
 
 
-저희는 이 이 무엇을 먹을 지 결정하는 데에 도움이 되기를 바랍니다.
+이 프로그램을 통해 무엇을 먹을 지 빠르게 결정하세요!
 여러분들의 시간은 소중하니까요^^
 
 지금까지 봐주셔서 감사합니다 :) 
