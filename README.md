@@ -69,7 +69,7 @@ Go to Development Notes file.
 
   1. Development Note/20191111.md
   2. Development Note/20191127.md
-  3. 
+  3. Development Note/20191220.md
 
 Maker 
 ---------------------------------------
@@ -148,7 +148,7 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 
   1. Development Note/20191111.md
   2. Development Note/20191127.md
-  3. 
+  3. Development Note/20191220.md
 
 
 제작자
