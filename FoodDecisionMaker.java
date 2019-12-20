@@ -171,6 +171,8 @@ public class FoodDecisionMaker {
 		Record r12 = new OtherElements(new StringDoubleKey("han greut", "Korean Food", "Expensive", "Close", "High"));
 		Record r13 = new OtherElements(new StringDoubleKey("Meal Plan B", "Western Food", "Cheap", "Close", "High"));
 		Record r14 = new OtherElements(new StringDoubleKey("mat jarang", "Korean Food", "Expensive", "Close", "High"));
+		Record r15 = new OtherElements(new StringDoubleKey("HanYang Restaurant", "Korean Food", "Cheap", "Close", "Low"));
+		Record r16 = new OtherElements(new StringDoubleKey("ilmi dakgalbi", "Korean Food", "Cheap", "Close", "High"));
 
 
 
