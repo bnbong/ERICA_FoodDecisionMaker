@@ -1,4 +1,7 @@
 # ERICA_FoodDecisionMaker
+
+ERICA_FoodDecisionMaker for Linux
+
 Do you have trouble with making decision of what to eat at afternoon or evening everyday?
 Or do you lose your tons of time for make decision of what to eat?
 
@@ -9,24 +12,40 @@ So what things make them hard? this statistics explicate about this.
 
 ![결정장애02_f1](./결정장애02_f1.jpg)
 
-So we felt serious about this problem and we decided to make a 'Mobile Application' that help to make a quick decision of what to eat.
+So we felt serious about this problem and we decided to make a JAVA programm that help to make a quick decision of what to eat.
 
-Now let us introduce about our application.
+Now let us introduce about our programm.
 
-This Application has...
+This Programm has...
 ---------------------------------------
 
-0. The first page that appears on this application first will teach you how to use it.
+0. The first page that appears on this programm first will teach you how to use it.
 1. The roulette that choose one object(restaurant or food menu) that user input.
 2. Application's recommend will based on price point, kinds of food, rating, or distance.
+
+How to use?
+---------------------------------------
+
+  1. You can compile this programm int JAVA compiler, at Linux.
+    Linux terminal : type 'javac FoodDecisionMaker.java'
+    
+  2. When you finished compiling it, run this programm with your own executor or Linux terminal
+    Linux terminal : type 'java FoodDecisionMaker'
+    
+  3. If it compiled successfully, the interface of FoodDecisionMaker will appear soon.
+     it says about what is FoodDecisionMaker and skills of it.
+  
+  4. Soon the user-input dialog comming out. following the interface says, enter one letter like 1, w, q in interface.
+  
+  5. When programm finished work that user want, programm will close saying "Thank you!". You can re-run programm run executor again.
 
 
 Development Environment
 ---------------------------------------
 
   Ubuntu 18.04.3                                                         
-  Android Studio 3.5.2.0 version
-  
+  JAVA OpenJDK 11
+  (development tool Visual Studio Code 1.41.0)
 
 We hope it helps your decision making!
 Because your time is precious.
@@ -52,26 +71,42 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758
 
 ![결정장애02_f1](./결정장애02_f1.jpg)
 
-따라서 저희는 이 문제에 대해 진지하게 생각해보았고 무엇을 먹을지에 대한 빠른 결정을 내리는 데 도움이 되는 '모바일 애플리케이션'을 만들기로 결정하였습니다.
+따라서 저희는 이 문제에 대해 진지하게 생각해보았고 무엇을 먹을지에 대한 빠른 결정을 내리는 데 도움이 되는 자바 프로그램을 만들기로 결정하였습니다.
 
-이제 저희가 만든 애플리케이션에 대해 소개하겠습니다.
+이제 저희가 만든 프로그램 대해 소개하겠습니다.
 
-이 앱이 가진 기능!
+이 프로그램이 가진 기능!
 ---------------------------------------
 
-0. 앱을 실행시키고 첫 화면에서 어떻게 사용하는지 소개해줍니다.
+0. 프로그램을 실행시키고 첫 화면에서 어떻게 사용하는지 소개해줍니다.
 1. 룰렛이 음식점과 음식 메뉴를 정해줍니다.
 2. 가격대, 음식 종류, 평점, 거리 를 기준으로 추천해줍니다.
+
+어떻게 사용하나요?
+---------------------------------------
+
+  1. 이 프로그램은 리눅스에 깔려 있는 JAVA컴파일러로 컴파일 할 수 있습니다.
+    리눅스 터미널 사용법 : 'javac FoodDecisionMaker.java' 를 입력
+  
+  2. 컴파일이 끝났으면, 터미널이나 자바 실행프로그램을 사용하여 프로그램을 실행시킵니다.
+    리눅스 터미널 사용법 : 'java FoodDecisionMaker' 를 입력
+  
+  3. 프로그램을 실행시키면 FoodDecisionMaker의 설명과 기능들을 보여주는 인터페이스가 나올 것입니다.
+  
+  4. 곧바로 유저가 입력할수 있는 창이 뜨고, 프로그램의 지시에 따라 명령어를 입력합니다.
+  
+  5. 프로그램이 제 일을 다 수행하면, 실행기를 다시 작동시키는 것으로 다시 프로그램을 돌릴 수 있습니다.
 
 
 개발 환경
 ---------------------------------------
 
-  Ubuntu 18.04.3            
-  Android Studio 3.5.2.0 version
+  Ubuntu 18.04.3                                                         
+  JAVA OpenJDK 11
+  (development tool Visual Studio Code 1.41.0)
 
 
-저희는 이 앱이 무엇을 먹을 지 결정하는 데에 도움이 되기를 바랍니다.
+저희는 이 이 무엇을 먹을 지 결정하는 데에 도움이 되기를 바랍니다.
 여러분들의 시간은 소중하니까요^^
 
 지금까지 봐주셔서 감사합니다 :) 
