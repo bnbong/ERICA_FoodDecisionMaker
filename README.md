@@ -2,6 +2,9 @@
 
 ERICA_FoodDecisionMaker for Linux
 
+**About FoodDecisionMaker (Google Docks)**
+https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit#
+
 Do you have trouble with making decision of what to eat at afternoon or evening everyday?
 Or do you lose your tons of time for make decision of what to eat?
 
@@ -80,6 +83,10 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 -----------------------------------------------------------------------------------------------------------------------------
 
 # ERICA_FoodDecisionMaker
+
+**FoodDecisionMaker 설명 (Google 문서)**
+https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit#
+
 매일 아침이나 점심, 저녁에 무엇을 먹을지 결정하는데 어려움을 겪고 있지 않은가요?
 아니면 무엇을 먹을 지 결정하기 위해 많은 시간을 버리고 있지 않나요?
 
