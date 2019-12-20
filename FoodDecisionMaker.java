@@ -166,7 +166,8 @@ public class FoodDecisionMaker {
 		Record r7 = new OtherElements(new StringDoubleKey("Bap FULL","Korean Food", "Cheap", "Close", "Low"));
 		Record r8 = new OtherElements(new StringDoubleKey("Myungga Tteokbokki","Korean Food", "Cheap", "Close", "High"));
 		Record r9 = new OtherElements(new StringDoubleKey("Eunhwasu Restaurant","Western Food", "Cheap", "Close", "High"));
-		Record r10 = new OtherElements(new StringDoubleKey("Crazyed Chicken","Western Food", "Western Food", "Cheap", "Close", "High"));
+		Record r10 = new OtherElements(new StringDoubleKey("Crazyed Chicken","Western Food", "Cheap", "Close", "High"));
+		Record r11 = new OtherElements(new StringDoubleKey("DosMas", "Western Food", "Cheap", "Close", "High"));
 
 
         db[0] = r1; //add records at db
