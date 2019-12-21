@@ -244,6 +244,13 @@ public class FoodDecisionMaker {
 		db[36] = r37;
 		db[37] = r38;
 		db[38] = r39;
+		db[39] = r40;
+		db[40] = r41;
+		db[41] = r42;
+		db[42] = r43;
+		db[43] = r44;
+		db[44] = r45;
+		db[45] = r46;
 
         db = shuffle(db); //shuffling db list
 
