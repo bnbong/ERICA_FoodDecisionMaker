@@ -189,6 +189,13 @@ public class FoodDecisionMaker {
 		Record r30 = new OtherElements(new StringDoubleKey("Brother Steak", "Western Food", "Expensive", "Far", "High"));
 		Record r31 = new OtherElements(new StringDoubleKey("StarKebab", "Western Food", "Expensive", "Far", "High"));
 		Record r32 = new OtherElements(new StringDoubleKey("O'ZBEK", "Western Food", "Expensive", "Far", "High"));
+		Record r33 = new OtherElements(new StringDoubleKey("Mr Pizza", "Western Food", "Expensive", "Close", "High"));
+		Record r34 = new OtherElements(new StringDoubleKey("issac toast", "Western Food", "Cheap", "Close", "High"));
+		Record r35 = new OtherElements(new StringDoubleKey("yoogane", "Korean Food", "Expensive", "Close", "Low"));
+		Record r36 = new OtherElements(new StringDoubleKey("cabare restaurant", "Western Food", "Cheap", "Close", "High"));
+		Record r37 = new OtherElements(new StringDoubleKey("tomato dosirak", "Korean Food", "Cheap", "Close", "High"));
+		Record r38 = new OtherElements(new StringDoubleKey("hansot dosirak","Korean Food", "Cheap", "Close", "High"));
+		Record r39 = new OtherElements(new StringDoubleKey("Pizza School", "Western Food", "Cheap", "Close", "High"));
 
 
 
