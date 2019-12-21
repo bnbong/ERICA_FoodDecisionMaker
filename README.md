@@ -1,6 +1,9 @@
-# ERICA_FoodDecisionMaker
+# ERICA_FoodDecisionMaker (README ver.ENGLISH)
 
 ERICA_FoodDecisionMaker for Linux
+
+**About FoodDecisionMaker (Google Docs)**                                       
+https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit?usp=sharing
 
 Do you have trouble with making decision of what to eat at afternoon or evening everyday?
 Or do you lose your tons of time for make decision of what to eat?
@@ -53,7 +56,7 @@ How to use?
 Development Environment
 ---------------------------------------
 
-  Ubuntu 18.04.3                                                         
+  ***Ubuntu 18.04.3                                                         
   JAVA OpenJDK 11
   (development tool Visual Studio Code 1.41.0)
 
@@ -79,7 +82,13 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-# ERICA_FoodDecisionMaker
+# ERICA_FoodDecisionMaker (README ver.KOREAN)
+
+ERICA_FoodDecisionMaker for Linux
+
+**FoodDecisionMaker 설명 (Google 문서)**                                              
+https://docs.google.com/document/d/1CjwNy1EsqHp-6ufqYqTCgH217S1BBVmWZoN56jsJoRI/edit?usp=sharing
+
 매일 아침이나 점심, 저녁에 무엇을 먹을지 결정하는데 어려움을 겪고 있지 않은가요?
 아니면 무엇을 먹을 지 결정하기 위해 많은 시간을 버리고 있지 않나요?
 
@@ -131,12 +140,12 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 개발 환경
 ---------------------------------------
 
-  Ubuntu 18.04.3                                                         
+  ***Ubuntu 18.04.3                                                         
   JAVA OpenJDK 11
   (development tool Visual Studio Code 1.41.0)
 
 
-저희는 이 이 무엇을 먹을 지 결정하는 데에 도움이 되기를 바랍니다.
+이 프로그램을 통해 무엇을 먹을 지 빠르게 결정하세요!
 여러분들의 시간은 소중하니까요^^
 
 지금까지 봐주셔서 감사합니다 :) 
@@ -155,4 +164,4 @@ bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> main develop, mana
 ---------------------------------------
 
 JJongmen(박종윤) 소프트웨어학부 1학년 2019030191 -> 보조 개발, 메인 디버거, 문서 한글번역작업, 추가적인 소스 추가
-bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> 메인 개발, README.md, Development note 관리, 보조 
+bnbong(이준혁) 소프트웨어학부 1학년 2019011758 -> 메인 개발, README.md, Development note 관리, 보조 디버거
