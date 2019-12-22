@@ -156,7 +156,7 @@ public class FoodDecisionMaker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Record[] db = new Record[32]; //change number with amount of Records
+        Record[] db = new Record[46]; //change number with amount of Records
         Record r1 = new OtherElements(new StringDoubleKey("SubWay", "Western food", "Expensive", "Close", "Low"));
         Record r2 = new OtherElements(new StringDoubleKey("213 Burger", "Western food", "Cheap", "Close", "High"));
         Record r3 = new OtherElements(new StringDoubleKey("jjigae jjigae", "Korean food", "Cheap", "Close", "High"));
