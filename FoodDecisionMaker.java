@@ -264,6 +264,18 @@ public class FoodDecisionMaker {
 		db[43] = r44;
 		db[44] = r45;
 		db[45] = r46;
+		db[46] = r47;
+		db[47] = r48;
+		db[48] = r49;
+		db[49] = r50;
+		db[50] = r51;
+		db[51] = r52;
+		db[52] = r53;
+		db[53] = r54;
+		db[54] = r55;
+		db[55] = r56;
+		db[56] = r57;
+		db[57] = r58;
 
         db = shuffle(db); //shuffling db list
 
