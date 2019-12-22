@@ -203,6 +203,19 @@ public class FoodDecisionMaker {
 		Record r44 = new OtherElements(new StringDoubleKey("handduk","Korean Food", "Expensive", "Far", "High"));
 		Record r45 = new OtherElements(new StringDoubleKey("milsup","Korean Food", "Cheap","Far","High"));
 		Record r46 = new OtherElements(new StringDoubleKey("yuwon chicken", "Western Food", "Cheap","Close", "High"));
+		Record r47 = new OtherElements(new StringDoubleKey("Pig Woori", "Korean Food", "Cheap", "Close", "High"));
+		Record r48 = new OtherElements(new StringDoubleKey("Little Forest", "Western Food", "Expensive", "Close", "High"));
+		Record r49 = new OtherElements(new StringDoubleKey("daehak tongdak", "Western Food", "Cheap", "Far", "High"));
+		Record r50 = new OtherElements(new StringDoubleKey("kongsadon", "Korean Food", "Cheap", "Far", "High"));
+		Record r51 = new OtherElements(new StringDoubleKey("action chicken gamyun", "Cheap", "Far", "High"));
+		Record r52 = new OtherElements(new StringDoubleKey("hwangsan", "Western Food", "Cheap", "Far", "High"));
+		Record r53 = new OtherElements(new StringDoubleKey("V ddeokbokki","Korean Food", "Cheap","Close", "High"));
+		Record r54 = new OtherElements(new StringDoubleKey("E Seo resaurant","Korean Food", "Expensive","Close","High"));
+		Record r55 = new OtherElements(new StringDoubleKey("snack plant", "korean Food", "Cheap", "Far", "High"));
+		Record r56 = new OtherElements(new StringDoubleKey("masinae tangsuyuk","Western Food", "Expensive","Far","High"));
+		Record r57 = new OtherElements(new StringDoubleKey("hongbaek","Western Food", "Expensive", "Far","High"));
+		Record r58 = new OtherElements(new StringDoubleKey("Chicken in Oven","Western Food", "Far", "High"));
+
 		
 
         db[0] = r1; //add records at db
