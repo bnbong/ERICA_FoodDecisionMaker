@@ -156,7 +156,7 @@ public class FoodDecisionMaker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Record[] db = new Record[60]; //change number with amount of Records
+        Record[] db = new Record[46]; //change number with amount of Records
         Record r1 = new OtherElements(new StringDoubleKey("SubWay", "Western food", "Expensive", "Close", "Low"));
         Record r2 = new OtherElements(new StringDoubleKey("213 Burger", "Western food", "Cheap", "Close", "High"));
         Record r3 = new OtherElements(new StringDoubleKey("jjigae jjigae", "Korean food", "Cheap", "Close", "High"));
@@ -203,20 +203,7 @@ public class FoodDecisionMaker {
 		Record r44 = new OtherElements(new StringDoubleKey("handduk","Korean Food", "Expensive", "Far", "High"));
 		Record r45 = new OtherElements(new StringDoubleKey("milsup","Korean Food", "Cheap","Far","High"));
 		Record r46 = new OtherElements(new StringDoubleKey("yuwon chicken", "Western Food", "Cheap","Close", "High"));
-		Record r47 = new OtherElements(new StringDoubleKey("Pig Woori", "Korean Food", "Cheap", "Close", "High"));
-		Record r48 = new OtherElements(new StringDoubleKey("Little Forest", "Western Food", "Expensive", "Close", "High"));
-		Record r49 = new OtherElements(new StringDoubleKey("daehak tongdak", "Western Food", "Cheap", "Far", "High"));
-		Record r50 = new OtherElements(new StringDoubleKey("kongsadon", "Korean Food", "Cheap", "Far", "High"));
-		Record r51 = new OtherElements(new StringDoubleKey("action chicken gamyun", "Cheap", "Far", "High"));
-		Record r52 = new OtherElements(new StringDoubleKey("hwangsan", "Western Food", "Cheap", "Far", "High"));
-		Record r53 = new OtherElements(new StringDoubleKey("V ddeokbokki","Korean Food", "Cheap","Close", "High"));
-		Record r54 = new OtherElements(new StringDoubleKey("E Seo resaurant","Korean Food", "Expensive","Close","High"));
-		Record r55 = new OtherElements(new StringDoubleKey("snack plant", "korean Food", "Cheap", "Far", "High"));
-		Record r56 = new OtherElements(new StringDoubleKey("masinae tangsuyuk","Western Food", "Expensive","Far","High"));
-		Record r57 = new OtherElements(new StringDoubleKey("hongbaek","Western Food", "Expensive", "Far","High"));
-		Record r58 = new OtherElements(new StringDoubleKey("Chicken in Oven","Western Food","Expensive", "Far", "High"));
-		Record r59 = new OtherElements(new StringDoubleKey("gichan gogi","Korean Food", "Cheap","Far","High"));
-		Record r60 = new OtherElements(new StringDoubleKey("miharu restaurant", "Western Food", "Cheap", "Far", "High"));
+
 
 		
 
@@ -266,20 +253,6 @@ public class FoodDecisionMaker {
 		db[43] = r44;
 		db[44] = r45;
 		db[45] = r46;
-		db[46] = r47;
-		db[47] = r48;
-		db[48] = r49;
-		db[49] = r50;
-		db[50] = r51;
-		db[51] = r52;
-		db[52] = r53;
-		db[53] = r54;
-		db[54] = r55;
-		db[55] = r56;
-		db[56] = r57;
-		db[57] = r58;
-		db[58] = r59;
-		db[59] = r60;
 
         db = shuffle(db); //shuffling db list
 
